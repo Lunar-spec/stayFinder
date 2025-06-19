@@ -7,8 +7,8 @@ import { Checkbox } from "~/components/ui/checkbox";
 
 const LoginPage = () => {
   const [formData, setFormData] = useState({
-    email: "",
-    password: "",
+    email: "M2@g.com",
+    password: "Mori1234",
   });
   const [errors, setErrors] = useState<{
     email?: string;
@@ -29,8 +29,8 @@ const LoginPage = () => {
       window.location.href = "/lodgings";
     } else {
       setFormData({
-        email: "",
-        password: "",
+        email: "M2@g.com",
+        password: "Mori1234",
       });
       setErrors({});
       setShowPassword(false);
